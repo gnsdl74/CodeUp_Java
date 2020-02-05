@@ -17,10 +17,9 @@ public class Exercise77 {
 			}
 		}	// end for, 바둑판 0으로 초기화
 		
-		int coo;
 		for(int i=0; i<num; i++) {
 			System.out.print("바둑알이 올려진 좌표 : ");
-			arr[coo= sc.nextInt()-1][coo= sc.nextInt()-1] = 1;
+			arr[sc.nextInt()-1][sc.nextInt()-1] = 1;
 		} // end for, 흰 돌 올려놓기
 		
 		for (int i = 0; i < arr.length; i++) {
